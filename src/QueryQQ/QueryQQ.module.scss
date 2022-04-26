@@ -1,0 +1,42 @@
+.wrapper {
+    padding-left: 20px;
+
+    .input {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        margin-left: 10px;
+        outline: none;
+    }
+
+    .error {
+        color: red;
+    }
+
+    .content {
+        border: 1px solid black;
+        border-radius: 10px;
+        display: flex;
+        padding: 10px;
+        width: 200px;
+        margin-top: 20px;
+        justify-content: space-between;
+        background-color: #F5F3F5;
+
+        .logo {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .qq {
+                color: grey;
+            }
+        }
+    }
+}
